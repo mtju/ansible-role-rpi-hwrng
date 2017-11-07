@@ -1,0 +1,21 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: Motiejus Ėringis
+  description: Enable Raspberry Pi’s hardware random number generator.
+  company:
+  license: The Unlicense
+  min_ansible_version: 1.2
+  platforms:
+  - name: Raspbian
+    versions:
+    - 9 (Stretch)
+  galaxy_tags:
+    - raspberry
+    - raspberry-pi
+    - rpi
+    - hwrng
+    - Raspbian
+    - hw-rng
+    - rng-tools

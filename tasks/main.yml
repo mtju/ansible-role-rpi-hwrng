@@ -1,0 +1,13 @@
+---
+- name: Install rng-tools
+  apt:
+    name: rng-tools
+    state: present
+
+- name: Edit rng-tools configuration
+  lineinfile:
+    path: /etc/default/rng-tools
+    regexp: "^#?HRNGDEVICE=/dev/hwrng"
+    line: HRNGDEVICE=/dev/hwrng
+    state: present
+  notify: rng-tools restart

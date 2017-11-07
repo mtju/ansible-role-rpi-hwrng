@@ -1,0 +1,5 @@
+---
+- name: rng-tools restart
+  service:
+    name: rng-tools
+    state: restarted
