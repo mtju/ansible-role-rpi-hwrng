@@ -11,7 +11,7 @@ galaxy_info:
     # Raspbian not allowed yet
   - name: Debian
     versions:
-    - Stretch
+    - all
   galaxy_tags:
     - raspberry
     - raspberrypi

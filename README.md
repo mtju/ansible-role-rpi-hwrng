@@ -1,4 +1,4 @@
-Role Name
+Ansible Role: RPi HWRNG
 =========
 
 This role enables Raspberry Pi’s hardware random number generator.
