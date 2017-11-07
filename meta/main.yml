@@ -8,14 +8,15 @@ galaxy_info:
   license: The Unlicense
   min_ansible_version: 1.2
   platforms:
-  - name: Raspbian
+    # Raspbian not allowed yet
+  - name: Debian
     versions:
-    - 9 (Stretch)
+    - Stretch
   galaxy_tags:
     - raspberry
-    - raspberry-pi
+    - raspberrypi
     - rpi
     - hwrng
     - Raspbian
-    - hw-rng
-    - rng-tools
+    - rngtools
+    - security
